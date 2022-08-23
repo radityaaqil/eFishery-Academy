@@ -8,9 +8,9 @@ func main(){
 	var name string
 	var name1 string
 	name = "eFishery"
-	name1 = " aqua developer"
+	name1 = "aqua developer"
 
-	fmt.Println(name+name1)
+	fmt.Println(name+" "+name1)
 
 	var a int16
 	var b int16
@@ -19,4 +19,8 @@ func main(){
 	b = 132
 
 	fmt.Println(a+b)
+
+	for i := 0; i < 5; i++{
+		fmt.Println(i, "Test")
+	}
 }
